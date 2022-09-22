@@ -32,5 +32,5 @@ process.on("unhandledRejection", (err, promise) => {
   router.close(() => process.exit(1));
 });
 router.get("/", (req, res) => {
-  res.send("Welcome to my random user by Burhan Uddin. We are listening to ", port);
+  res.send("Welcome to my random user by Burhan Uddin. We are listening to ");
 });
